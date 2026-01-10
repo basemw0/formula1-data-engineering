@@ -1,9 +1,0 @@
-{
-	"name": "formula1-adf05",
-	"location": "eastus",
-	"identity": {
-		"type": "SystemAssigned",
-		"principalId": "e24dd68f-b1c0-494b-a62c-a370881775da",
-		"tenantId": "ad2a8324-bef7-46a8-adb4-fe51b6613b24"
-	}
-}

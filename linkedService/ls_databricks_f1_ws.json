@@ -1,13 +1,13 @@
 {
 	"name": "ls_databricks_f1_ws",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
 	"properties": {
 		"annotations": [],
 		"type": "AzureDatabricks",
 		"typeProperties": {
 			"domain": "https://adb-4466224364742010.10.azuredatabricks.net",
-			"authentication": "MSI",
-			"workspaceResourceId": "/subscriptions/74eb5cb3-0abc-49e0-96fd-7d09be601e87/resourceGroups/f1-rg/providers/Microsoft.Databricks/workspaces/f1-ws",
-			"existingClusterId": "1217-175404-cuzkmduq"
+			"existingClusterId": "1217-175404-cuzkmduq",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDExRTM2MzJCLUZEMEMtNDQyOC04NTg0LUNCNUE4QTRENTNFM19iOTRhOTlmMi04NzY5LTQ5OTItYjI0Mi0yZmQ2MWRiMDdiNTEiDQp9"
 		}
 	}
 }

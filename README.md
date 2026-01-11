@@ -12,7 +12,7 @@ The pipeline handles data ingestion, schema enforcement, transformation, and inc
 
 The solution follows the **Medallion Architecture** (Bronze, Silver, Gold layers) to ensure data quality and scalability.
 
-**[![Architecture](https://github.com/user-attachments/assets/7271d368-20bf-4d5b-911c-fbb7a9664ae0)]**
+**![Architecture](https://github.com/user-attachments/assets/7271d368-20bf-4d5b-911c-fbb7a9664ae0)**
 
 ### **Data Flow:**
 1.  **Ingestion (Bronze Layer):**
@@ -81,7 +81,7 @@ formula1-data-pipeline/
 The final presentation layer is visualized in Power BI, connected directly to the **Gold Layer** (Databricks `f1_presentation` database).
 
 ### 1. Driver Dominance Analysis
-**[![Drivers Analysis](https://github.com/user-attachments/assets/2f3f0d8f-9fc3-4266-b38e-faa07f990344)]**
+**![Drivers Analysis](https://github.com/user-attachments/assets/2f3f0d8f-9fc3-4266-b38e-faa07f990344)**
 * **Purpose:** Identifies the most successful drivers in F1 history based on total wins and win efficiency.
 * **Key Metrics:**
     * **Total Wins:** The primary metric for success.
@@ -92,7 +92,7 @@ The final presentation layer is visualized in Power BI, connected directly to th
     * Highlights high-efficiency drivers from early eras (e.g., Fangio) who had fewer races but higher win rates.
 
 ### 2. Constructor Standings & Team Dominance
-**[![Visualization](https://github.com/user-attachments/assets/adcd52aa-c604-453e-8f60-ccd0fd0afc18)]**
+**![Visualization](https://github.com/user-attachments/assets/adcd52aa-c604-453e-8f60-ccd0fd0afc18)**
 * **Purpose:** Tracks the rise and fall of F1 teams (Constructors) over the decades.
 * **Key Metrics:** Total Constructor Points and Championship Titles.
 * **Visualization:**

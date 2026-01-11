@@ -17,7 +17,7 @@ The solution follows the **Medallion Architecture** (Bronze, Silver, Gold layers
 ### **Data Flow:**
 1.  **Ingestion (Bronze Layer):**
     * **Historical Backfill:** Bulk ingestion of legacy CSV files (1950–today) from Kaggle.
-    * **Incremental Updates:** Automated weekly API calls to Jolpica/Ergast for the latest race results.
+    * **Incremental Updates:** Automated weekly API calls to Jolpica/Ergast for the latest race results. (will be implemented to production by start of 2026 season)
     * *Storage:* Azure Data Lake Gen2 (ADLS) `raw` container.
 2.  **Transformation (Silver Layer):**
     * Data is cleaned, joined, and deduplicated.

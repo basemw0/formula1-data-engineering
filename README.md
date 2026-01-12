@@ -93,8 +93,7 @@ The final presentation layer is visualized in Power BI, connected directly to th
     * Highlights high-efficiency drivers from early eras (e.g., Fangio) who had fewer races but higher win rates.
 
 ### 2. Constructor Standings & Team Dominance
-**![Visualization](https://github.com/user-attachments/assets/2c90009c-1e45-40e0-be6d-ae817efbe56c)
-)**
+**![Visualization](https://github.com/user-attachments/assets/2c90009c-1e45-40e0-be6d-ae817efbe56c)**
 * **Purpose:** Tracks the rise and fall of F1 teams (Constructors) over the decades.
 * **Key Metrics:** Total Constructor Points and Championship Titles.
 * **Visualization:**

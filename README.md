@@ -81,8 +81,7 @@ formula1-data-pipeline/
 The final presentation layer is visualized in Power BI, connected directly to the **Gold Layer** (Databricks `f1_presentation` database).
 
 ### 1. Driver Dominance Analysis
-**![Drivers Analysis](https://github.com/user-attachments/assets/8d634dbd-120f-4299-8e2d-572f0e5c08af) />
-)**
+**![Drivers Analysis](https://github.com/user-attachments/assets/8d634dbd-120f-4299-8e2d-572f0e5c08af)**
 * **Purpose:** Identifies the most successful drivers in F1 history based on total wins and win efficiency.
 * **Key Metrics:**
     * **Total Wins:** The primary metric for success.
